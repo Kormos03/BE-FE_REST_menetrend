@@ -14,5 +14,5 @@ datasource db {
 model jaratok{
   id        Int      @id @default(autoincrement())
   allomas   String
-  idopont   Int
+  idopont   String
 }
