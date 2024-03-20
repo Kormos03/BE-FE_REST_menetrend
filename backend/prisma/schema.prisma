@@ -13,6 +13,6 @@ datasource db {
 
 model jaratok{
   id        Int      @id @default(autoincrement())
-  allomas   String
+  allomasok   String
   idopont   String
 }

@@ -10,8 +10,10 @@ function App() {
 
   return (
     <>
+    <nav>
     <NavLink to="/">Menetrend</NavLink>
     <NavLink to="/create">Új járat</NavLink>
+    </nav>
       <Outlet />
     </>
   )

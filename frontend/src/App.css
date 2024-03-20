@@ -40,3 +40,22 @@
 .read-the-docs {
   color: #888;
 }
+
+tbody {
+  width: 100%;
+  border-collapse: collapse;
+  justify-content: center;
+  align-items: center;
+
+}
+td, th {
+  padding: 0.5em;
+  border: 1px solid #ddd;
+}
+
+nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}

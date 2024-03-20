@@ -1,4 +1,4 @@
 export class CreateJaratokDto {
-    allomas: string;
+    allomasok: string;
     idopont: string;
 }

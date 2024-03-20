@@ -10,7 +10,7 @@ export class JaratokService {
   create(createJaratokDto: CreateJaratokDto) {
     return this.prisma.jaratok.create({
       data: {
-        allomas: createJaratokDto.allomas,
+        allomasok: createJaratokDto.allomasok,
         idopont: createJaratokDto.idopont
       }
     })
@@ -34,7 +34,7 @@ export class JaratokService {
         id
       },
       data: {
-        allomas: updateJaratokDto.allomas,
+        allomasok: updateJaratokDto.allomasok,
         idopont: updateJaratokDto.idopont
       }
     
